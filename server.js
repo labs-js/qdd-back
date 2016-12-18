@@ -9,7 +9,7 @@ var express = require('express'),
 //DB
 
 
-mongoose.connect('mongodb://' + serverIP + '/qdd');
+//mongoose.connect('mongodb://' + serverIP + '/qdd')
 
 // REGISTER OUR ROUTES -------------------------------
 // all of our routes will be prefixed with /qdd
