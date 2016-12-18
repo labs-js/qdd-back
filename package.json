@@ -1,22 +1,20 @@
 {
-  "name": "OpenShift-Sample-App",
+  "name": "qdd-back",
   "version": "1.0.0",
-  "description": "OpenShift Sample Application",
+  "description": "Quilombo Driven Development Blog Backend",
   "keywords": [
-    "OpenShift",
     "Node.js",
-    "application",
-    "openshift"
+    "application"
   ],
   "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
-    "url": "http://www.openshift.com/"
+    "name": "Alan Adrian Campora",
+    "email": "alan.campora@gmail.com",
+    "url": "http://github.com/alancampora"
   },
-  "homepage": "http://www.openshift.com/",
+  "homepage": "http://github.com/alancampora",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openshift/origin-server"
+    "url": "https://github.com/labs-js/qdd-back"
   },
   "engines": {
     "node": ">= 0.6.0",
