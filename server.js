@@ -19,5 +19,7 @@ require('./routes/routes')(router);
 
 // START THE SERVER
 // =============================================================================
-app.listen(port);
-console.log('Magic happens on port ' + port);
+app.listen(port, serverIP, function(){
+ console.log('%s: Node server started on %s:%d ...',
+                        Date(Date.now() ), serverIP, port);
+});

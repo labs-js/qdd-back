@@ -1,5 +1,5 @@
 var charmander = require('charmander-injector')
-var packageJSON = charmander.register('packageJSON', require('../../package.json'));
+var packageJSON = charmander.register('packageJSON', require('../package.json'));
 
 var configuration = {};
 
