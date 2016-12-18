@@ -5,10 +5,11 @@ var express = require('express'),
     port = process.env.OPENSHIFT_NODEJS_PORT || 8089,
     router = express.Router(),
     mongoose = require('mongoose'),
-    serverIP = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
+    serverIP = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
+    mongo = require('./mongo'); 
 //DB
 
-
+mongo(serverIP);
 //mongoose.connect('mongodb://' + serverIP + '/qdd')
 
 // REGISTER OUR ROUTES -------------------------------
