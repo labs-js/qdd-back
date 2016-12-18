@@ -1,3 +1,5 @@
-The OpenShift `nodejs` cartridge documentation can be found at:
+This is the Quilombo Driven Development blog backend!
 
+The OpenShift `nodejs` cartridge documentation can be found at:
 http://openshift.github.io/documentation/oo_cartridge_guide.html#nodejs
+
